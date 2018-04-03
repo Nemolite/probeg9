@@ -1,0 +1,33 @@
+.img-logo {
+	width: 364px;
+    height: 60px;
+	background-image: url(../img/logo-main.png);
+}
+
+.main {
+	width: 100%;
+	height: 80vh;
+	background-image: url(../img/20sEp_croper_ru.jpeg);
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover;
+}
+
+.fon-txt {
+	width: 100%;
+	height: 70px;
+	margin: 0 auto;
+	/*background: rgba( 255, 0, 0, 0.5);*/
+	background-image: url(../img/ANTlR_croper_ru.jpeg);
+
+}
+
+.fon-txt h1 {
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	color:#fff;
+	font-weight: 700;
+    font-size: 2em;
+
+}
