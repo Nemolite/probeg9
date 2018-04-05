@@ -10,7 +10,7 @@
 <body>
 
 
-<nav class="navbar navbar-expand-lg navbar-light bg-primary">
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-primary">
   <a class="navbar-brand" href="#">
   	<div class="img-logo">
   	</div>
@@ -23,25 +23,18 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Информация<span class="sr-only">(current)</span></a>
+        <a class="nav-link text-white" href="#">Информация<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Схема трассы</a>
+        <a class="nav-link text-white" href="#schema-txt">Схема трассы</a>
       </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
-      </li>
+
       <li class="nav-item">
-        <a class="nav-link disabled" href="#">Disabled</a>
+        <a class="nav-link text-white" href="#">Положение</a>
       </li>
+
+
+
     </ul>
     <form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="search" placeholder="Поиск" aria-label="Search">
@@ -54,7 +47,7 @@
 		<h1 >Традиционный пробег Шумерля — с.Кумашка — Шумерля в честь дня Победы</h1>
 	</div>
 </section>
-<div class="schema-txt">
+<div class="schema-txt" id="schema-txt">
 
 	<div class="container">
 	  <div class="row">
@@ -63,6 +56,7 @@
 				<h3>
 			  Дистанция
 			  <small class="text-muted">19 км</small>
+			  (туда-обратно по <small class="text-muted">9,5 км</small> )
 			</h3>
 			<h3>
 			  Старт
@@ -99,8 +93,17 @@
 	<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A711fbd94eeccbf73a0f12629667d8c61d17f83fe2d37e9611a24cb80986aa973&amp;width=800&amp;height=450&amp;lang=ru_RU&amp;scroll=true"></script>
 	</div>
 </section>
+<section class="polo">
+	Положение
+</section>
+
+<section class="invaite bg-warning text-white">
 
 
+</section>
+
+<footer class="footer bg-primary text-white">
+</footer>
 	
 
 
