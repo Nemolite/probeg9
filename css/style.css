@@ -6,7 +6,7 @@
 
 .main {
 	width: 100%;
-	height: 80vh;
+	height: 100vh;
 	background-image: url(../img/20sEp_croper_ru.jpeg);
 	-webkit-background-size: cover;
     -moz-background-size: cover;
@@ -14,20 +14,40 @@
      background-size: cover;
 }
 
-.fon-txt {
-	width: 100%;
-	height: 70px;
-	margin: 0 auto;
-	/*background: rgba( 255, 0, 0, 0.5);*/
-	background-image: url(../img/ANTlR_croper_ru.jpeg);
 
-}
 
-.fon-txt h1 {
+.main-txt-fon h1 {
 	font-family: 'Montserrat', sans-serif;
 	text-align: center;
 	color:#fff;
 	font-weight: 700;
     font-size: 2em;
+    margin-top: 31px;
+    text-align: center;
 
+}
+
+.main-txt-fon {
+	width: 58%;
+	height: 150px;
+	float: right;
+	background-color:rgba(50,143,235,0.5);
+}
+.schema-txt {
+	width: 100%;
+	height: 150px;
+	background-color:rgba(0,123,255,0.5);
+	padding-top: 14px;
+
+}
+.scheme {
+	width: 100%;
+	height: 600px;
+
+}
+
+.schema-map {
+	width: 800px;
+	height: 450px;
+	margin: 0 auto;
 }
